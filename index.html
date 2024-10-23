@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var first=parseFloat(prompt("enter num1"));
+var second=parseFloat(prompt("enter num2"));
+var add=first+second;
+var sub=first-second;
+var mul=first*second;
+var div=first/second;
+var mod=first%second;
+const pow=first**second;
+const power=first^second;
+var num=35;
+var num =num + 5;
+console.log(add,sub,mul,div,mod,pow,power,num);
+(first>second)?console.log(first,"is greater"):console.log(second,"is greater");
+(first<second)?console.log(first,"is smaller"):console.log(second,"is smaller");
+(first==second)?console.log("both are equal"):console.log("not equal");
+
+var first=prompt("enter firstname");
+var second=prompt("enter lastname");
+const fullname=first+ " " +second;
+console.log(fullname);
+const age1=parseFloat(prompt("enter age"));
+(age1>18)?console.log("eligible to vote"):console.log("not eligible");
+let length=fullname.length;
+console.log(length);
+(length>10)?console.log("it is longer"):console.log("it is smaller");
+
+var first=parseFloat(prompt("enter num1"));
+var mod=first%2;
+const mod1=first^2;
+console.log(mod,mod1);
+(mod && mod1 > 50)? console.log("greater than 50"):console.log("less than 50");
+
+
+const num1=parseFloat(prompt("enter the num"));
+const num2=parseFloat(prompt("enter the num"));
+const num3=parseFloat(prompt("enter the num"));
+var add=num1+num2;
+console.log(add);
+(add > 50)?console.log("greater than 50"):console.log("less than 50");
+((add>50) && ( num3<100))?console.log("greater than 50"):console.log("less than 50");
+
+var firstname=prompt("enter string");
+var lastname=prompt("enter string");
+var num=parseFloat(prompt("enter number"));
+let concat=firstname+" "+lastname;
+console.log(concat);
+console.log(typeof num, num);
+num += 10;
+console.log(num);
+
+var amount=parseFloat(prompt("enter total amount"));
+let discount=(amount>150)?0.15:0;
+amount-=amount*discount;
+console.log(amount);
+
+var s=prompt("enter the string");
+ let reversedstring=s.split("").reverse().join("");
+ const len=s.length
+ const len1= reversedstring.length
+ console.log(len);
+((len) || (len1) >20)?console.log("above 20"):console.log("below 20");
+
+let a=parseFloat(prompt("enter the num"));
+let b=parseFloat(prompt("enter the num"));
+(a & b ==false)?console.log("true"):console.log("false");
+(a | b ==false)?console.log("true"):console.log("false");
+(a ^ b ==true)?console.log("true"):console.log("false");
+let shiftedNum = a << 2;
+console.log(shiftedNum);
+
+
+let age=parseFloat(prompt("enter the num"));
+let salary=parseFloat(prompt("enter the num"));
+let creditscore=parseFloat(prompt("enter the num"));
+((age>=21)&&(salary>30000)&&(creditscore>650))?console.log("approved"):console.log("denied");
+
+
+let one=parseFloat(prompt("enter the num"));
+let two=parseFloat(prompt("enter the num"));
+let three=parseFloat(prompt("enter the num"));
+let sum=one+two+three;
+(sum>60)?console.log("passed"):console.log("failed");
+if (sum<60){
+    sum+=5;
+    console.log(sum);
+    (sum>60)?console.log("passed"):console.log("failed");
+}
+</script>
+</body>
+</html>
